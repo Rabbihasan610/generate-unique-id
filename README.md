@@ -5,7 +5,7 @@
 ## Example
  
 ```sh
-use use Hasan\LaravelUniqueId\UniqueId;
+use Hasan\LaravelUniqueId\UniqueId;
 ```
 
  
