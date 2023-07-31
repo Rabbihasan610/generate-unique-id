@@ -4,10 +4,12 @@
 
 ## Example
  
-
-''''''
+```sh
 use use Hasan\LaravelUniqueId\UniqueId;
+```
 
+ 
+```sh
 return UniqueId::generate(5);
 // 00005
 return UniqueId::generate(6);
@@ -18,4 +20,5 @@ return UniqueId::generate(7);
 
 return UniqueId::generate(8);
 // 00006
-.....
+ 
+```
