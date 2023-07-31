@@ -1,0 +1,27 @@
+{
+    "name": "hasan/laravel-unique-id",
+    "description": "A unique id generator for Laravel",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hasan\\LaravelUniqueId\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rabbihasan610",
+            "email": "mmix00595@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hasan\\LaravelUniqueId\\UniqueIdServiceProvider"
+            ],
+            "aliases": {
+                "UniqueId": "Hasan\\LaravelUniqueId\\Facade"
+            }
+        }
+    }
+}
